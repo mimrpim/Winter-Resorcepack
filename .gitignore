@@ -1,0 +1,24 @@
+# --- MCreator & Gradle Core ---
+.gradle/
+.mcreator/workspaceBackups/
+gradle/wrapper/gradle-wrapper.jar
+
+# --- Build & Output (Zde je nejvíc nepořádku) ---
+build/
+packloader/build/
+packloader/.eclipse/
+bin/
+run/
+
+# --- IDE & OS files ---
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+Thumbs.db
+desktop.ini
+
+# --- Keep the wrapper script but ignore the binary ---
+!gradlew
+!gradlew.bat
